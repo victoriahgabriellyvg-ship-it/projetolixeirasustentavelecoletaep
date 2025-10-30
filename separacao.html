@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>EcoPonto - A Importância da Separação</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&amp;family=Poppins&amp;family=Raleway:wght@500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<style>
+      .font-playfair { font-family: 'Playfair Display', serif; }
+      .font-poppins { font-family: 'Poppins', sans-serif; }
+      .font-raleway { font-family: 'Raleway', sans-serif; }
+    </style>
+<script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#3A6B35",
+              "primary-light": "#88A47C",
+              "background-light": "#F5F3E7",
+              "background-medium": "#E8E3D1",
+            },
+            fontFamily: {
+              "display": ["Playfair Display", "serif"],
+              "body": ["Poppins", "sans-serif"],
+              "action": ["Raleway", "sans-serif"],
+            },
+            borderRadius: {"DEFAULT": "1rem", "lg": "1.5rem", "xl": "2rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light">
+<div class="relative flex min-h-screen w-full flex-col items-center bg-background-light group/design-root overflow-x-hidden p-4 sm:p-6 md:p-8">
+<div class="w-full max-w-4xl mx-auto flex flex-col items-center gap-6">
+<!-- Illustration -->
+<div class="flex w-full max-w-xs sm:max-w-sm justify-center p-4">
+<div class="w-full overflow-hidden aspect-square rounded-full flex">
+<div class="w-full bg-center bg-no-repeat bg-cover" data-alt="Ilustração minimalista de uma planta crescendo na palma de uma mão, simbolizando cuidado e sustentabilidade." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA8bZC1tqOqDy1ZF2WyRatK8uPcxa3wW2aK7Lnx32h2FNjXec6dYEiwL24vVBmbYJ_XjGgpvA_dS4MHa_0wQDEKd582rb-vq9jh8lN78HBkIdEZWMruZFOXgyU6_t1HvJdyVSzsg_iVGqLAXsubTbLw__kLGj7lwy9HqdUISOalNsGEMlAW75K2454emhFjGtVF7FkThNk8_saU_8FNNfjp1ju6zRzUk7xa2of-_prpImuTJGijn2y2cnES7q52FrC_XGIq5IvsrpE");'></div>
+</div>
+</div>
+<!-- Main Content Card -->
+<div class="bg-background-medium rounded-lg shadow-sm w-full p-6 sm:p-8 md:p-10 flex flex-col items-center">
+<!-- Headline -->
+<h1 class="text-primary font-display tracking-tight text-3xl sm:text-4xl font-bold leading-tight text-center pb-4">A Importância da Separação</h1>
+<!-- Body Text -->
+<p class="text-primary/90 font-body text-base font-normal leading-relaxed pb-6 max-w-2xl text-center">
+                A separação correta do lixo é um ato fundamental para o meio ambiente. Ajuda a reduzir a poluição, diminuir o volume em aterros sanitários, preservar recursos naturais e gerar renda para catadores.
+            </p>
+<!-- Text Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 w-full">
+<div class="flex flex-1 gap-3 rounded-lg border border-primary-light/50 bg-background-light p-4 flex-col items-center text-center">
+<span class="material-symbols-outlined text-primary text-3xl">grass</span>
+<div class="flex flex-col gap-1">
+<h2 class="text-primary font-body text-base font-bold leading-tight">Reduz a poluição</h2>
+<p class="text-primary/70 font-body text-sm font-normal leading-normal">Menos contaminação do solo e da água.</p>
+</div>
+</div>
+<div class="flex flex-1 gap-3 rounded-lg border border-primary-light/50 bg-background-light p-4 flex-col items-center text-center">
+<span class="material-symbols-outlined text-primary text-3xl">delete</span>
+<div class="flex flex-col gap-1">
+<h2 class="text-primary font-body text-base font-bold leading-tight">Diminui aterros</h2>
+<p class="text-primary/70 font-body text-sm font-normal leading-normal">Aumenta a vida útil dos aterros sanitários.</p>
+</div>
+</div>
+<div class="flex flex-1 gap-3 rounded-lg border border-primary-light/50 bg-background-light p-4 flex-col items-center text-center">
+<span class="material-symbols-outlined text-primary text-3xl">recycling</span>
+<div class="flex flex-col gap-1">
+<h2 class="text-primary font-body text-base font-bold leading-tight">Preserva recursos</h2>
+<p class="text-primary/70 font-body text-sm font-normal leading-normal">Economiza matérias-primas e energia.</p>
+</div>
+</div>
+<div class="flex flex-1 gap-3 rounded-lg border border-primary-light/50 bg-background-light p-4 flex-col items-center text-center">
+<span class="material-symbols-outlined text-primary text-3xl">work</span>
+<div class="flex flex-col gap-1">
+<h2 class="text-primary font-body text-base font-bold leading-tight">Gera emprego</h2>
+<p class="text-primary/70 font-body text-sm font-normal leading-normal">Fortalece a cadeia da reciclagem.</p>
+</div>
+</div>
+</div>
+<!-- CTA Button -->
+<div class="flex pt-8 justify-center">
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-12 px-8 bg-primary text-white text-base font-action font-medium leading-normal tracking-wide shadow-lg hover:bg-primary/90 transition-colors">
+<span class="truncate">Descubra Como Separar</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</body></html>
